@@ -1,0 +1,57 @@
+
+
+
+Defualt Demographics:
+**Most**
+- Entreprenuers and Divorced clinents account for the most defaults.
+- Clients with active loans
+
+**Least**
+- Students
+
+Campaign Success Demographics:
+
+**Most**
+- Students and Retired clients accounted for the most term deposits.
+
+- Unemployed, management, and administrative clients were 2nd to the students and retired clients.
+
+
+**Least**
+- Blue collar and service workers
+
+
+New Job column:
+
+1. blue-collar = [blue-collar, technician, services, housemaid, ]
+2. admin = [admin, management]
+3. unemployed/retired = [unemployed, retired, unknown]
+4. self-employed = [self-employed, entrepreneur] 
+5. student = [student]
+
+blue-collar      7676
+management       6625
+technician       5779
+admin.           4065
+services         3338
+retired          1239
+self-employed    1146
+entrepreneur     1124
+unemployed        955
+housemaid         931
+student           686
+unknown           181
+
+
+
+
+*** CREDIT DEFAULT MODELS ****
+
+>>>>>>> Default Analysis Conclusion: Bank Balance, Active loans, term deposits, and housing status have a significant impact on the likelihood for default
+         on a credit line.  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1d. Marital
+2d. Job_cat
+3d. age_cat
+4d. bal_cat
+5d. loans??
