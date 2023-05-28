@@ -96,5 +96,7 @@ Best Score:  0.6649174910957426
 weighted avg       0.90      0.89      0.86      4521
 
 [3rd Attempt]
+Best Parameters:  {'gamma': 0, 'learning_rate': 0.175, 'max_depth': 7, 'n_estimators': 5000}
+Best Score:  0.6705554130986471
 
       
