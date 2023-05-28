@@ -55,3 +55,13 @@ unknown           181
 3d. age_cat
 4d. bal_cat
 5d. loans??
+
+
+
+******** Best Performing Models ********
+1. Logistic Regression: (Fastest, less then 1 minute to run 10 times) 61
+2. Random Forest: (3rd Fastest, 1 minute to run 10 times) 65
+3. Gradient Boost: (2nd Fastest, slightly less than 1 minute) 63
+4. Support Vector Machine: (Very Slow, 10+ to run 10 times)
+5. Naive Bayes: (Fast)
+6. XGBoost: (Fastest!!!) 65
