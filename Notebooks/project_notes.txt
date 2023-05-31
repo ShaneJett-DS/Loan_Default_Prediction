@@ -73,7 +73,7 @@ unknown           181
 Best Parameters:  {'gamma': 0, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 300}
 Best Score:  0.6513589807512827
 
-              precision    recall  f1-score   support
+                 precision    recall  f1-score   support
 
            0       0.86      1.00      0.92      3830
            1       0.89      0.08      0.15       691
@@ -86,7 +86,7 @@ weighted avg       0.86      0.86      0.80      4521
 Best Parameters:  {'gamma': 0, 'learning_rate': 0.15, 'max_depth': 7, 'n_estimators': 1000}
 Best Score:  0.6649174910957426
 
-           precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
            0       0.89      1.00      0.94      3830
            1       0.97      0.29      0.44       691
@@ -99,4 +99,25 @@ weighted avg       0.90      0.89      0.86      4521
 Best Parameters:  {'gamma': 0, 'learning_rate': 0.175, 'max_depth': 7, 'n_estimators': 5000}
 Best Score:  0.6705554130986471
 
+                precision    recall  f1-score   support
+
+           0       0.89      1.00      0.94      3830
+           1       0.97      0.29      0.44       691
+
+    accuracy                           0.89      4521
+   macro avg       0.93      0.64      0.69      4521
+weighted avg       0.90      0.89      0.86      4521
+
+[4th Attempt]
+Best Parameters:  {'gamma': 0, 'learning_rate': 0.175, 'max_depth': 7, 'n_estimators': 4000}
+Best Score:  0.6706506427355328
+
+                 precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98      3830
+           1       0.99      0.74      0.85       691
+
+    accuracy                           0.96      4521
+   macro avg       0.97      0.87      0.91      4521
+weighted avg       0.96      0.96      0.96      4521
       
