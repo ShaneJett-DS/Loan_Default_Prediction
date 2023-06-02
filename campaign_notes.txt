@@ -1,0 +1,60 @@
+
+
+Randomized Grid Search CV Notes
+
+[1st Attempt]
+
+Parameters:
+    'loss': ['logloss', 'exponential'],
+    'learning_rate': [.001, .01, .05, .1],  # Learning rate
+    'n_estimators': [100, 250, 500],  # Number of trees in the forest
+    'max_depth': [3, 5, 7],  # Maximum depth of each tree
+    'max_features' : [None, 'sqrt', 'log2']
+
+Best Parameters:  {'n_estimators': 500, 'max_features': None, 'max_depth': 3, 'loss': 'exponential', 'learning_rate': 0.05}
+Best Score:  0.6802325141488503
+
+
+[2nd Attempt]
+
+Parameters:
+    'loss': ['log_loss', 'exponential'],
+    'learning_rate': [.001, .01, .05, .1],  
+    'n_estimators': [500, 750, 1000],   **Modified**
+    'max_depth': [3, 5, 7],  
+    'max_features' : [None, 'sqrt', 'log2']
+
+Best Parameters:  {'n_estimators': 750, 'max_features': 'sqrt', 'max_depth': 3, 'loss': 'exponential', 'learning_rate': 0.05}
+Best Score:  0.6589675636758175
+
+[3rd Attempt]
+
+Parameters:
+    'loss': ['log_loss', 'exponential'],
+    'learning_rate': [.03, .05, .07],  # Learning rate
+    'n_estimators': [500, 750, 1000],  # Number of trees in the forest
+    'max_depth': [3, 5, 7],  # Maximum depth of each tree
+
+                precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95     39922
+           1       0.68      0.45      0.54      5289
+
+    accuracy                           0.91     45211
+
+Best Parameters:  {'n_estimators': 750, 'max_depth': 3, 'loss': 'exponential', 'learning_rate': 0.03}
+Best Score:  0.6884909504527058
+
+
+[4th Attempt]
+
+Parameters:
+    'loss': ['log_loss', 'exponential'],
+    'learning_rate': [.03, .04, .05],  # Learning rate
+    'n_estimators': [700, 750, 800],  # Number of trees in the forest
+    'max_depth': [3, 4, 5]
+
+Best Parameters:  {'n_estimators': 700, 'max_depth': 3, 'loss': 'log_loss', 'learning_rate': 0.03}
+Best Score:  0.6918386086460342
+
+[5th Attempt]
